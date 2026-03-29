@@ -38,3 +38,4 @@ def test_salary_rank_by_department():
     # Check that rank 1 exists
     ranks = [r[3] for r in result]
     assert 1 in ranks, "Expected rank 1 to appear in results"
+    
